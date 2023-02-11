@@ -4,7 +4,7 @@ jobs:
   release:
     name: Download release t'
     runs-on: ubuntu-latest
-    steps:
+   # steps:
       - uses: robinraju/release-downloader@v1.7 
       with:
          repository: "savvasdalkitsis/uhuruphotos-android"
