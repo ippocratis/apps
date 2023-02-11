@@ -1,8 +1,8 @@
 name: downloader
 on: [push]
 jobs:
-  release:
-    name: Download release t'
+  #release:
+    #name: Download release t'
     runs-on: ubuntu-latest
    # steps:
       - uses: robinraju/release-downloader@v1.7 
