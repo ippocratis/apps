@@ -1,3 +1,8 @@
-- name: Get Latest Release
-  uses: pozetroninc/github-action-get-latest-release@v0.5.0
- savvasdalkitsis/uhuruphotos-android 
+- name: release-downloader
+  uses: robinraju/release-downloader@v1.7
+  with: 
+    repository: "savvasdalkitsis/uhuruphotos-android"
+    latest: true
+    fileName: "*.apk"
+    out-file-path: "apps"
+    
