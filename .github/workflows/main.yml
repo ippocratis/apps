@@ -3,6 +3,6 @@
   with: 
     repository: "savvasdalkitsis/uhuruphotos-android"
     latest: true
-    fileName: "*.apk"
-    out-file-path: "apps"
+    fileName: '*.apk'
+    out-file-path: "/apps"
     
