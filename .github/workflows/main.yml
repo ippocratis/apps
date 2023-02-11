@@ -1,6 +1,5 @@
   on:[push]
-  uses: robinraju/release-downloader@v1.7
-  with: 
+  uses: robinraju/release-downloader@v1.7 
     repository: "savvasdalkitsis/uhuruphotos-android"
     latest: true
     fileName: '*.apk'
